@@ -27,10 +27,6 @@ export class ThemeSwitcherComponent implements OnInit {
     this.themeService.getJsTheme()
       .subscribe((theme: NbJSThemeOptions) => {
         this.theme = theme;
-        /**
-         * Below code added to make website theme as default
-         */
-        this.toggleTheme(false);
       });
   }
 
