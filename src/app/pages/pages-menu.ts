@@ -9,25 +9,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Products',
-    icon: 'nb-home',
+    icon: 'nb-keypad',
     link: '/pages/products',
     home: false,
   },
   {
     title: 'Careers',
-    icon: 'nb-home',
+    icon: 'nb-volume-high',
     link: '/pages/careers',
     home: false,
   },
   {
     title: 'About Us',
-    icon: 'nb-home',
+    icon: 'nb-person',
     link: '/pages/about-us',
     home: false,
   },
   {
     title: 'Contact Us',
-    icon: 'nb-home',
+    icon: 'nb-compose',
     link: '/pages/contact-us',
     home: false,
   }
